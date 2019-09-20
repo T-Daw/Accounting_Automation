@@ -3,8 +3,7 @@ projects to speed up mundane accounting tasks
 
 
 Every month, I review credit card transactions and upload them into Quickbooks. There are several employees who have company
-cards but sometimes fail to send receipts. Our bank does not provide a spreadsheet with transactions along with the card number 
-the transaction was charged to. At the end of the month, they do provide a pdf with this information. 
+cards but sometimes fail to send receipts. Our bank does not provide an easily downloadable spreadsheet with transactions along with the card number they are charged to,  throughout the month. At the end of the month, they do provide a pdf with this information. 
 
 I used tabula to parse the pdf and manually cleaned up the data into a csv with 4 columns (Date, Description, Card [ cc #], Amount).
 I have another table (in csv format) with CardHolder name and Card #. 
