@@ -56,7 +56,7 @@ df_merge_table = pd.merge(read_cards_df, read_transactions_df, on='Card')
 # save merged table as csv
 
 
-export_csv = df_merge_table.to_csv ('/Users/t_daw/Projects/accounting/transactions_cards_merge.csv', index = None, header=True) 
+export_csv = df_merge_table.to_csv ('/file_location/transactions_cards_merge.csv', index = None, header=True) 
 
 print (df_merge_table)
 
